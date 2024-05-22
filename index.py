@@ -20,9 +20,6 @@ def isValidURL(url):
         return False
 
 def main():
-    # val = ShortenURL("aSASD")
-    # print(val)
-
     sl.set_page_config(page_title="Shortener URL", page_icon=None, layout="centered")
     sl.title("URL Shortener")
     url = sl.text_input("Write u URL", placeholder="https://www.google.com")
